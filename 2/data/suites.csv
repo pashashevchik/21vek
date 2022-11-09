@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Nov 09 12:48:14 GMT 2022","Wed Nov 09 12:48:51 GMT 2022","36424","tests","test_buy_product","","","","test_buy_product","Test buy product(smartphone)"
+"passed","Wed Nov 09 12:48:51 GMT 2022","Wed Nov 09 12:48:59 GMT 2022","7995","tests","test_wrong_data_authorization","","","","test_wrong_data_authorization","Test input wrong data authorization"
+"passed","Wed Nov 09 12:47:24 GMT 2022","Wed Nov 09 12:48:14 GMT 2022","50209","tests","test_add_product_to_cart","","","","test_add_product_to_cart","Test add product to cart"
