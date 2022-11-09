@@ -24,9 +24,9 @@ class Main_page(Base):
 
     def press_catalog_button(self):
         try:
-            self.get_element(self.CATALOG_BUTTON_SELECTOR).click()
+            self.element_is_clickable(self.CATALOG_BUTTON_SELECTOR).click()
         except selenium.common.exceptions.StaleElementReferenceException:
-            self.get_element(self.CATALOG_BUTTON_SELECTOR).click()
+            self.element_is_clickable(self.CATALOG_BUTTON_SELECTOR).click()
         print("Press catalog button")
 
     def press_electronics_catalog_button(self):
